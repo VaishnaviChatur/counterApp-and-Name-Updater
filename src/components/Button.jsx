@@ -21,10 +21,10 @@ export default function Button() {
     <div className='ccco'>
         <p className='teco'>{data}</p>
       <button className='btn' onClick={onClickUp}>
-      To decrease
+      To Increase
       </button>
       <br></br>
-      <button  className='btn' onClick={onClickDown}>To Increase</button>
+      <button  className='btn' onClick={onClickDown}>To decrease</button>
     </div>
   )
 }
